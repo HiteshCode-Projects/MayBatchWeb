@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         var student1 = "Arthi"
+         var student2 = "Sai"
+
+         //Array : Multiple Data at same Time and You can data of diffrent Data types
+         // symbol - []
+         //Rule : Index No starts with 0
+
+         let students = [ "Nida" , "manisha" ,  "Nikhilesh" , 123 , true    ]
+         console.log(students)
+
+        //Access The Data ArrayName[Indexno]
+        console.log(students[2])   //Nikhilesh
+
+        console.log(students[5])  // 
+
+        console.log(students[4])
+
+
+         //Add the Data
+         students.push("John")  //Add the Data at the last of array
+
+         students.unshift("Bob") //Add the Data at the Start
+
+
+         //Remove the Data
+         students.pop()  //Remove the Data from last
+
+         students.shift()  //Remove The Data From Front
+
+
+         //Splice 
+       //  splice(Index no , 0 - Add The New Data Without Removing the Previous Data or 1 -Add The New Data Removing the Previous Data , "New Data")
+
+       students.splice(3,1,"Aditya")
+         console.log(students)
+
+
+         //Object - Collection of Data
+         // Symbol - { } 
+         //Rule : key(left):(right)value Pair
+
+         var employee = {
+            //key:value pair
+            name:"John",
+
+            email:"John@gmail.com",
+
+            salary : 9480934809,
+
+            dept:"IT" ,
+
+            loginStatus:true
+
+
+         }
+         console.log(employee)
+
+         //Acees The Value By using ObjectName.KeyName
+
+         console.log(employee.dept)
+
+         console.log(employee.loginStatus)
+
+
+    </script>
+</body>
+</html>
