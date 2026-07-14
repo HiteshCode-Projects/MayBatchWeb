@@ -19,6 +19,11 @@ const app = express();
 
 //Get Method: It gets The Data From Backend Server To Frontend Client/User
 
+app.get('/', function(req,res){
+
+    res.send('Good Evening User, Welcome To Backend Server');
+})
+
 app.get('/login', function(req,res){
 
 
